@@ -8,7 +8,7 @@
 
 ### 样式设置
 
-控件仅提供了几个简单的样式设置项，如文字颜色、背景颜色、按钮背景选择器等，通过相应的set方法来进行设置：
+控件仅提供了几个简单的样式设置项，如文字颜色、背景颜色、按钮背景选择器等，通过相应的set方法来进行设置（如果有更复杂的需求建议直接修改控件源码）：
 
 ```java
 setAnimateDuration(long animateDuration)：设置动画持续时间，ms
@@ -21,8 +21,6 @@ setGroupTitleTextColor(int color)：设置分组标题的文字颜色
 setConditionTextColorResource(int colorResource)：设置过滤条件单选框的文字颜色
 setConditionBackgroudDrawableResource(int drawableResource)：设置过滤条件单选框的背景
 ```
-
-如果有更复杂的需求，建议直接修改控件源码。
 
 ### 使用示例
 
